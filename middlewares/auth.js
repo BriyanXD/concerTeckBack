@@ -23,6 +23,7 @@ function verifyToken(req, res, next) {
   }
 }
 function isAdmin(req, res, next) {
+  console.log(UserDate, "Usuario antes de revisar");
   if (UserDate.user.isAdmin) {
     next();
   } else {
