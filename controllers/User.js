@@ -151,7 +151,7 @@ async function UpgradeRank(req, res) {
   }
 }
 
-async function postAdminUser(req, res) {
+/* async function postAdminUser(req, res) {
   try {
     const { username, email, name } = req.body;
     const admin = User.findOrCreate({
@@ -166,7 +166,7 @@ async function postAdminUser(req, res) {
   } catch (error) {
     res.status(401).json({ error: error.message });
   }
-}
+} */
 
 module.exports = {
   getUser,
