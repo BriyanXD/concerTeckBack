@@ -6,8 +6,7 @@ const Venue = sequelize.define(
   "venue",
   {
     id: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
+      type: DataTypes.STRING,
       primaryKey: true,
     },
     name: {
@@ -24,25 +23,25 @@ const Venue = sequelize.define(
     },
     maxStockStreaming: {
       type: DataTypes.INTEGER,
-      defaultValue:0
+      defaultValue: 0,
     },
     maxStockVIP: {
       type: DataTypes.INTEGER,
-      defaultValue:0
+      defaultValue: 0,
     },
     maxStockGeneralLateral: {
       type: DataTypes.INTEGER,
-      defaultValue:0
+      defaultValue: 0,
     },
     maxStockGeneral: {
       type: DataTypes.INTEGER,
-      allowNull:false,
+      allowNull: false,
     },
     maxStockPalco: {
       type: DataTypes.INTEGER,
-      defaultValue:0
+      defaultValue: 0,
     },
-    minStock:{
+    minStock: {
       type: DataTypes.INTEGER,
     },
     isBigEvent: {

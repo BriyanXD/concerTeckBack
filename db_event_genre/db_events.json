@@ -8,7 +8,7 @@
             "performerImage": "https://lastfm.freetls.fastly.net/i/u/770x0/c680cb0c72de80e17656d75121b6155d.jpg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "La aplanadora del Rock vuelve al Luna Park para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
-            "venueId":1,
+            "venueId":"lunapark",
             "stockId":1
         },
         {
@@ -19,7 +19,7 @@
             "performerImage": "https://quedigital.com.ar/web/wp-content/uploads/2015/01/ARBOLITO-00-B.jpg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Arbolito festeja sus 25 años de carrera y lo hace de la mejor manera, con su primer Luna Park.",
-            "venueId":1,
+            "venueId":"lunapark",
             "stockId":1
         },
         {
@@ -30,7 +30,7 @@
             "performerImage": "https://indiehoy.com/wp-content/uploads/2016/10/depeche-mode-.jpg",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Depeche Mode vuelve a Argentina para presentarse en el Estadio Monumental, ante una multitud.",
-            "venueId":2,
+            "venueId":"monumental",
             "stockId":2
         },
         {
@@ -41,7 +41,7 @@
             "performerImage": "https://lumiere-a.akamaihd.net/v1/images/coldplay_2_477851c5.jpeg",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Coldplay rompe record y se presenta en el Monumental para interpretar todos sus hits.",
-            "venueId":2,
+            "venueId":"monumental",
             "stockId":2
         },
         {
@@ -52,7 +52,7 @@
             "performerImage": "https://www.oxigeno.fm/wp-content/uploads/2021/07/Becky-G-estrena-Only-one.jpg",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Becky G trae todo su ritmo al Estadio Monumental para hacer delirar a toda una multitud que pide por ella desde hace años.",
-            "venueId":2,
+            "venueId":"monumental",
             "stockId":2
         },
         {
@@ -63,7 +63,7 @@
             "performerImage": "https://indiehoy.com/wp-content/uploads/2020/06/metallica.jpg",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Pasó tiempo desde la última vez de Metallica en Argentina. Volvieron para demostrarnos que el tiempo no pasa para estos rockeros eternos.",
-            "venueId":2,
+            "venueId":"monumental",
             "stockId":2
         },
         {
@@ -74,7 +74,7 @@
             "performerImage": "https://www.fmradiocultura.com.ar/wp-content/uploads/2017/12/orquesta-de-viena.jpg",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "La Orquesta Filarmónica de Viena se presenta en el Teatro Colón para demostrar porque es considerada una de las mejores Orquestas del Mundo.",
-            "venueId":3,
+            "venueId":"teatrocolon",
             "stockId":3
         },
         {
@@ -85,7 +85,7 @@
             "performerImage": "https://www.cmtv.com.ar/imagenes_artistas/2011.jpg",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "El power-trío Eruca Sativa y un electro-acústico en el Teatro Colón, donde nos mostrará el poder de sus acordes y lo poderoso de sus letras.",
-            "venueId":3,
+            "venueId":"teatrocolon",
             "stockId":3
 
         },
@@ -97,7 +97,7 @@
             "performerImage": "https://vivo.perfil.com/storage/uploads/shows/photo_gallery/c30c78cd5ca3ee573d8697e20f620dac.jpg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "La vuelta de Cazzu al Luna nos trae la presentanción de su nuevo disco.",
-            "venueId":1,
+            "venueId":"lunapark",
             "stockId":1
         },
         {
@@ -108,7 +108,7 @@
             "performerImage": "https://www.cromosomax.com/pics/2012/09/alicia-keys-itunes-festival.jpg",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "Alicia Keys, la reina del Jazz se presenta en Argentina por primera vez y nos presenta su último disco.",
-            "venueId":3,
+            "venueId":"teatrocolon",
             "stockId":3
         },
         {
@@ -119,7 +119,7 @@
             "performerImage": "https://www.diariovivo.com/wp-content/uploads/2018/04/Missbo-III.jpg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Miss Bolivia se presenta en el Luna para hacer vibrar a todos los presentes, con sus letras llenas de realidad.",
-            "venueId":1,
+            "venueId":"lunapark",
             "stockId":1
         },
         {
@@ -130,7 +130,7 @@
             "performerImage": "https://img2.rtve.es/i/?w=1600&i=1600690710113.jpg",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Bad Bunny y su primera vez en el Estadio Monumental, con un público que hace años viene reclamando su regreso al país.",
-            "venueId":2,
+            "venueId":"monumental",
             "stockId":2
         },
         {
@@ -141,7 +141,7 @@
             "performerImage": "https://vivo.perfil.com/storage/uploads/shows/slider/3a758e68c774675958f177289cbb81f0.webp",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Marilina Bertoldi se presenta por primera vez en el Luna para demostrar porque es una de las figuras emergentes más fuertes del rock Nacional.",
-            "venueId":1,
+            "venueId":"lunapark",
             "stockId":1
         },
         
@@ -153,7 +153,7 @@
             "performerImage": "https://www.cultura.gob.ar/media/uploads/osn_11_IpINc6k.jpg",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "La Orquesta Sinfónica Nacional se presenta en el Teatro Colón para demostrar porque es considerada una de las mejores Orquestas del Mundo.",
-            "venueId":3,
+            "venueId":"teatrocolon",
             "stockId":3
 
         }
@@ -168,7 +168,7 @@
             "performerImage": "https://www.rionegro.com.ar/wp-content/uploads/2021/09/Residente.jpg?w=1024",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
-            "venueId":4,
+            "venueId":"teatroflores",
             "stockId":4
         },
         {
@@ -179,7 +179,7 @@
             "performerImage": "https://lastfm.freetls.fastly.net/i/u/770x0/c680cb0c72de80e17656d75121b6155d.jpg",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "La aplanadora del Rock vuelve a Flores para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
-            "venueId":5,
+            "venueId":"teatroflores",
             "stockId":5
         },
         {
@@ -190,7 +190,7 @@
             "performerImage": "https://quedigital.com.ar/web/wp-content/uploads/2015/01/ARBOLITO-00-B.jpg",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "Arbolito sigue de festejo, y está vez vuelve a Flores para presentar todo su repertorio.",
-            "venueId":5,
+            "venueId":"teatroflores",
             "stockId":5
         },
         {
@@ -201,7 +201,7 @@
             "performerImage": "https://vivo.perfil.com/storage/uploads/shows/photo_gallery/c30c78cd5ca3ee573d8697e20f620dac.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Cazzu vuelve a los barrios y se presenta en el Teatro de Flores, con la idea de mantenerse cercana a sus seguidores.",
-            "venueId":4,
+            "venueId":"teatroflores",
             "stockId":4
         },
         {
@@ -212,7 +212,7 @@
             "performerImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Javier_Malosetti_en_2014.jpg",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "El genio del bajo, Javier Malosetti se presenta en la Trastienda, en lo que va a ser un show íntimo",
-            "venueId":5,
+            "venueId":"trastienda",
             "stockId":5
         },
         {
@@ -223,7 +223,7 @@
             "performerImage": "https://www.rionegro.com.ar/wp-content/uploads/2021/09/Residente.jpg?w=1024",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
-            "venueId":4,
+            "venueId":"teatroflores",
             "stockId":4
         },
         {
@@ -234,7 +234,7 @@
             "performerImage": "https://lastfm.freetls.fastly.net/i/u/770x0/c680cb0c72de80e17656d75121b6155d.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "La aplanadora del Rock vuelve a Flores para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
-            "venueId":4,
+            "venueId":"teatroflores",
             "stockId":4
         },
         {
@@ -245,7 +245,7 @@
             "performerImage": "https://quedigital.com.ar/web/wp-content/uploads/2015/01/ARBOLITO-00-B.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "detalle arbolito",
-            "venueId":4,
+            "venueId":"teatroflores",
             "stockId":4
         },
         {
@@ -256,7 +256,7 @@
             "performerImage": "https://radiografica.org.ar/wp-content/uploads/2022/05/QUI1872.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Catupecu Machu presenta a su nueva formación en el Teatro de Flores, ante todo su público, en su barrio.",
-            "venueId":4,
+            "venueId":"teatroflores",
             "stockId":4
         },
         {
@@ -267,7 +267,7 @@
             "performerImage": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/d/4/0/e/d40e8dea64b8039bcad53f1c8af3019b.jpg",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "Primera vez de Ziggy Marley en Argentina, en un show íntimo donde sentiremos todo el ritmo jamaiquino heredado de su padre.",
-            "venueId":5,
+            "venueId":"trastienda",
             "stockId":5
         }
           ]

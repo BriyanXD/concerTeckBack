@@ -1,6 +1,7 @@
 {
     "Venues": [
         {
+            "id":"lunapark",
             "name": "Luna Park",
             "address": "Av. Eduardo Madero 470, CABA",
             "map": "-34.6021519 -58.370605",
@@ -11,6 +12,7 @@
             "maxStockPalco": 0
         },
         {
+            "id":"monumental",
             "name": "Estadio Monumental",
             "address": "Av. Pres. Figueroa Alcorta 7597, CABA",
             "map": "-34.5452005 -58.4495803",
@@ -21,6 +23,7 @@
             "maxStockPalco": 0
         },
         {
+            "id":"teatrocolon",
             "name": "Teatro Colón",
             "address": "Cerrito 628, CABA",
             "map": "-34.6010406 -58.388905",
@@ -31,6 +34,7 @@
             "maxStockPalco": 1500
         },
         {
+            "id":"tratroflores",
             "name": "Teatro de Flores",
             "address": "Av. Rivadavia 7806, CABA",
             "map": "-34.6324321 -58.4828748",
@@ -41,6 +45,7 @@
             "maxStockPalco": 0
         },
         {
+            "id":"trastienda",
             "name": "La Trastienda",
             "address": "Balcarce 460, C1064 CABA",
             "map": "-34.6131123 -58.3726627",

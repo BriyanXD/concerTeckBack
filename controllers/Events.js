@@ -126,8 +126,6 @@ async function postEvents(req, res) {
     ) {
       return res.status(404).send("Faltan datos obligatorios");
     } else {
-      if (!Number.isInteger(venueId))
-        return res.status(400).json({ error: "venueId debe ser un numero" });
       if (!Number.isInteger(stockId))
         return res.status(400).json({ error: "stockId debe ser un numero" });
       await Genre.findOrCreate({
