@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 app.use("/api", routes);
 
 let PORT = process.env.PORT || 3001;
-
+//reinicio del server
 async function main() {
   try {
     await sequelize.sync({ force: true });
