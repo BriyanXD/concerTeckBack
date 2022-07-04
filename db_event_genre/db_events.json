@@ -1,7 +1,7 @@
 {
     "BigEvents": [
         {
-            "name": "Divididos en el Luna Park",
+            "name": "Divididos en vivo",
             "artist": "Divididos",
             "genre": "Rock",
             "schedule": "2022-08-17T21:00:00.000Z",
@@ -12,7 +12,7 @@
             "stockId":1
         },
         {
-            "name": "Arbolito en el Luna Park",
+            "name": "Arbolito en vivo",
             "artist": "Arbolito",
             "genre": "Reggae",
             "schedule": "2022-07-17T21:00:00.000Z",
@@ -23,7 +23,7 @@
             "stockId":1
         },
         {
-            "name": "Depeche Mode en el Estadio Monumental",
+            "name": "Depeche Mode en vivo",
             "artist": "Depeche Mode",
             "genre": "Electronica",
             "schedule": "2022-09-17T21:00:00.000Z",
@@ -34,7 +34,7 @@
             "stockId":2
         },
         {
-            "name": "Coldplay en el Estadio Monumental",
+            "name": "Coldplay en vivo",
             "artist": "Coldplay",
             "genre": "Pop",
             "schedule": "2022-12-05T21:00:00.000Z",
@@ -45,7 +45,7 @@
             "stockId":2
         },
         {
-            "name": "Becky G en el Estadio Monumental",
+            "name": "Becky G en vivo",
             "artist": "Becky G",
             "genre": "Reggaeton",
             "schedule": "2022-08-12T21:00:00.000Z",
@@ -56,7 +56,7 @@
             "stockId":2
         },
         {
-            "name": "Metallica en el Estadio Monumental",
+            "name": "Metallica en vivo",
             "artist": "Metallica",
             "genre": "Metal",
             "schedule": "2022-10-17T21:00:00.000Z",
@@ -67,7 +67,7 @@
             "stockId":2
         },
         {
-            "name": "Orquesta Filarmónica de Viena en el Teatro Colón",
+            "name": "Orquesta Filarmónica de Viena en vivo",
             "artist": "Orquesta Filarmónica de Viena",
             "genre": "Clasica",
             "schedule": "2022-08-17T21:00:00.000Z",
@@ -78,7 +78,7 @@
             "stockId":3
         },
         {
-            "name": "Eruca Sativa en el Teatro Colón",
+            "name": "Eruca Sativa en vivo",
             "artist": "Eruca Sativa",
             "genre": "Rock",
             "schedule": "2022-08-18T21:00:00.000Z",
@@ -90,7 +90,7 @@
 
         },
         {
-            "name": "Cazzu en el Luna Park",
+            "name": "Cazzu en vivo",
             "artist": "Cazzu",
             "genre": "Trap",
             "schedule": "2022-11-17T21:00:00.000Z",
@@ -101,7 +101,7 @@
             "stockId":1
         },
         {
-            "name": "Alicia Keys en el Teatro Colón",
+            "name": "Alicia Keys en vivo",
             "artist": "Alicia Keys",
             "genre": "Jazz",
             "schedule": "2022-10-17T21:00:00.000Z",
@@ -112,7 +112,7 @@
             "stockId":3
         },
         {
-            "name": "Miss Bolivia en el Luna Park",
+            "name": "Miss Bolivia en vivo",
             "artist": "Miss Bolivia",
             "genre": "Hip Hop",
             "schedule": "2022-10-17T21:00:00.000Z",
@@ -123,7 +123,7 @@
             "stockId":1
         },
         {
-            "name": "Bad Bunny en el Estadio Monumental",
+            "name": "Bad Bunny en vivo",
             "artist": "Bad Bunny",
             "genre": "Reggaeton",
             "schedule": "2022-08-13T21:00:00.000Z",
@@ -134,7 +134,7 @@
             "stockId":2
         },
         {
-            "name": "Marilina Bertoldi en el Luna Park",
+            "name": "Marilina Bertoldi en vivo",
             "artist": "Marilina Bertoldi",
             "genre": "Rock",
             "schedule": "2022-09-25T21:00:00.000Z",
@@ -146,7 +146,7 @@
         },
         
         {
-            "name": "Orquesta Sinfónica Nacional en el Teatro Colón",
+            "name": "Orquesta Sinfónica Nacional en vivo",
             "artist": "Orquesta Sinfónica Nacional",
             "genre": "Clasica",
             "schedule": "2022-11-23T21:00:00.000Z",
@@ -161,7 +161,7 @@
         "Events":[
             
             {
-            "name": "Residente en el Teatro de Flores",
+            "name": "Residente en vivo",
             "artist": "Residente",
             "genre": "Rap",
             "schedule": "2022-12-24T21:00:00.000Z",
@@ -172,7 +172,7 @@
             "stockId":4
         },
         {
-            "name": "Divididos en la Trastienda",
+            "name": "Divididos en vivo",
             "artist": "Divididos",
             "genre": "Rock",
             "schedule": "2022-08-05T21:00:00.000Z",
@@ -183,7 +183,7 @@
             "stockId":5
         },
         {
-            "name": "Arbolito en la Trastienda",
+            "name": "Arbolito en vivo",
             "artist": "Arbolito",
             "genre": "Reggae",
             "schedule": "2022-07-25T21:00:00.000Z",
@@ -194,7 +194,7 @@
             "stockId":5
         },
         {
-            "name": "Cazzu en el Teatro de Flores",
+            "name": "Cazzu en vivo",
             "artist": "Cazzu",
             "genre": "Trap",
             "schedule": "2022-12-15T21:00:00.000Z",
@@ -205,7 +205,7 @@
             "stockId":4
         },
         {
-            "name": "Javier Malosetti en la Trastienda",
+            "name": "Javier Malosetti en vivo",
             "artist": "Javier Malosetti",
             "genre": "Jazz",
             "schedule": "2022-12-19T21:00:00.000Z",
@@ -216,7 +216,7 @@
             "stockId":5
         },
         {
-            "name": "Residente en el Teatro de Flores",
+            "name": "Residente en vivo",
             "artist": "Residente",
             "genre": "Rap",
             "schedule": "2023-01-17T21:00:00.000Z",
@@ -227,7 +227,7 @@
             "stockId":4
         },
         {
-            "name": "Divididos en el Teatro de Flores",
+            "name": "Divididos en vivo",
             "artist": "Divididos",
             "genre": "Rock",
             "schedule": "2022-11-18T21:00:00.000Z",
@@ -238,7 +238,7 @@
             "stockId":4
         },
         {
-            "name": "Arbolito en el Teatro de Flores",
+            "name": "Arbolito en vivo",
             "artist": "Arbolito",
             "genre": "Reggae",
             "schedule": "2022-08-01T21:00:00.000Z",
@@ -249,7 +249,7 @@
             "stockId":4
         },
         {
-            "name": "Catupecu Machu en el Teatro de Flores",
+            "name": "Catupecu Machu en vivo",
             "artist": "Catupecu Machu",
             "genre": "Rock",
             "schedule": "2022-08-02T21:00:00.000Z",
@@ -260,7 +260,7 @@
             "stockId":4
         },
         {
-            "name": "Ziggy Marley en la Trastienda",
+            "name": "Ziggy Marley en vivo",
             "artist": "Ziggy Marley",
             "genre": "Reggae",
             "schedule": "2022-08-06T21:00:00.000Z",
