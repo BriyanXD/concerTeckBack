@@ -154,7 +154,7 @@ async function UpgradeRank(req, res) {
 async function postAdminUser(req, res) {
   try {
     const { username, email, name } = req.body;
-    const admin = User.findOrCreate({
+    const admin = await User.findOrCreate({
       where: {
         username: username,
         email: email,
