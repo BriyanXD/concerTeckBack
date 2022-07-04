@@ -153,16 +153,18 @@ async function UpgradeRank(req, res) {
 
 async function postAdminUser(req, res) {
   try {
-    const { username, email, name } = req.body;
+    const { username, email } = req.body;
     const admin = await User.findOrCreate({
       where: {
         username: username,
         email: email,
-        name: name,
         isAdmin: true,
       },
     });
-    res.send(admin);
+    let token = jwt.sign({ user: admin }, AUTH_SECRET, {
+      expiresIn: AUTH_EXPIRES,
+    });
+    res.json({ admin: admin, token: token });
   } catch (error) {
     res.status(401).json({ error: error.message });
   }
