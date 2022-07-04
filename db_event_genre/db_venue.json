@@ -1,0 +1,54 @@
+{
+    "Venues": [
+        {
+            "name": "Luna Park",
+            "address": "Av. Eduardo Madero 470, CABA",
+            "map": "-34.6021519 -58.370605",
+            "maxStockStreaming": 5000,
+            "maxStockVIP": 200,
+            "maxStockGeneralLateral": 5000,
+            "maxStockGeneral": 11000,
+            "maxStockPalco": 0
+        },
+        {
+            "name": "Estadio Monumental",
+            "address": "Av. Pres. Figueroa Alcorta 7597, CABA",
+            "map": "-34.5452005 -58.4495803",
+            "maxStockStreaming": 15000,
+            "maxStockVIP": 5000,
+            "maxStockGeneralLateral": 25000,
+            "maxStockGeneral": 50000,
+            "maxStockPalco": 0
+        },
+        {
+            "name": "Teatro Colón",
+            "address": "Cerrito 628, CABA",
+            "map": "-34.6010406 -58.388905",
+            "maxStockStreaming": 3000,
+            "maxStockVIP": 0,
+            "maxStockGeneralLateral": 1500,
+            "maxStockGeneral": 9000,
+            "maxStockPalco": 1500
+        },
+        {
+            "name": "Teatro de Flores",
+            "address": "Av. Rivadavia 7806, CABA",
+            "map": "-34.6324321 -58.4828748",
+            "maxStockStreaming": 3000,
+            "maxStockVIP": 50,
+            "maxStockGeneralLateral": 200,
+            "maxStockGeneral": 2000,
+            "maxStockPalco": 0
+        },
+        {
+            "name": "La Trastienda",
+            "address": "Balcarce 460, C1064 CABA",
+            "map": "-34.6131123 -58.3726627",
+            "maxStockStreaming": 2000,
+            "maxStockVIP": 50,
+            "maxStockGeneralLateral": 0,
+            "maxStockGeneral": 700,
+            "maxStockPalco": 0
+        }
+    ]
+}

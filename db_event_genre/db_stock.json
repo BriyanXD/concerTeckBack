@@ -1,0 +1,69 @@
+{
+    "StockSale":[
+            {
+                "stockStreaming": 5000,
+                "stockVIP": 200,
+                "stockGeneralLateral": 5000,
+                "stockGeneral": 11000,
+                "stockPalco": 0,
+                "streamingPrice": 200,
+                "vipPrice": 1000,
+                "generalLateralPrice": 400,
+                "generalPrice": 700,
+                "palcoPrice": 1000,
+                "venueId":1
+            },
+            {
+                "stockStreaming": 15000,
+                "stockVIP": 5000,
+                "stockGeneralLateral": 25000,
+                "stockGeneral": 50000,
+                "stockPalco": 0,
+                "streamingPrice": 200,
+                "vipPrice": 1000,
+                "generalLateralPrice": 400,
+                "generalPrice": 700,
+                "palcoPrice": 1000,
+                "venueId":2
+            },
+            {
+                "stockStreaming": 3000,
+                "stockVIP": 0,
+                "stockGeneralLateral": 500,
+                "stockGeneral": 8000,
+                "stockPalco": 500,
+                "streamingPrice": 200,
+                "vipPrice": 1000,
+                "generalLateralPrice": 400,
+                "generalPrice": 700,
+                "palcoPrice": 1000,
+                "venueId":3
+            },
+            {
+                "stockStreaming": 3000,
+                "stockVIP": 50,
+                "stockGeneralLateral": 200,
+                "stockGeneral": 2000,
+                "stockPalco": 0,
+                "streamingPrice": 200,
+                "vipPrice": 1000,
+                "generalLateralPrice": 400,
+                "generalPrice": 700,
+                "palcoPrice": 1000,
+                "venueId":4
+            },
+            {
+                "stockStreaming": 2000,
+                "stockVIP": 50,
+                "stockGeneralLateral": 0,
+                "stockGeneral": 700,
+                "stockPalco": 0,
+                "streamingPrice": 200,
+                "vipPrice": 1000,
+                "generalLateralPrice": 400,
+                "generalPrice": 700,
+                "palcoPrice": 1000,
+                "venueId":5
+            }
+    ]
+}
