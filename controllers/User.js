@@ -174,5 +174,4 @@ module.exports = {
   putUser,
   deleteUser,
   UpgradeRank,
-  postAdminUser,
 };

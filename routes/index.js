@@ -13,7 +13,6 @@ const {
   putUser,
   deleteUser,
   UpgradeRank,
-  postAdminUser,
   // userSerchbar
 } = require("../controllers/User");
 const { getAllGenres, postOneGenre } = require("../controllers/Genres");
@@ -109,7 +108,7 @@ routes.post("/validation/login", ValidationUser);
 routes.post("/validation/username", ValidationUsername);
 routes.post("/validation/email", ValidationEmail);
 
-routes.post("/admin", postAdminUser);
+/* routes.post("/admin", postAdminUser); */
 
 routes.get("/blackall", verifyToken, isAdmin, getAllBlackList);
 routes.get("/black", verifyToken, isAdmin, getAOneBlackList);
