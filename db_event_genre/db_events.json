@@ -9,7 +9,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "La aplanadora del Rock vuelve al Luna Park para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"lunapark",
-            "stockId":1
+            "stockId":"lunapark"
         },
         {
             "name": "Arbolito en vivo",
@@ -20,7 +20,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Arbolito festeja sus 25 años de carrera y lo hace de la mejor manera, con su primer Luna Park.",
             "venueId":"lunapark",
-            "stockId":1
+            "stockId":"lunapark"
         },
         {
             "name": "Depeche Mode en vivo",
@@ -31,7 +31,7 @@
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Depeche Mode vuelve a Argentina para presentarse en el Estadio Monumental, ante una multitud.",
             "venueId":"monumental",
-            "stockId":2
+            "stockId":"monumental"
         },
         {
             "name": "Coldplay en vivo",
@@ -42,7 +42,7 @@
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Coldplay rompe record y se presenta en el Monumental para interpretar todos sus hits.",
             "venueId":"monumental",
-            "stockId":2
+            "stockId":"monumental"
         },
         {
             "name": "Becky G en vivo",
@@ -53,7 +53,7 @@
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Becky G trae todo su ritmo al Estadio Monumental para hacer delirar a toda una multitud que pide por ella desde hace años.",
             "venueId":"monumental",
-            "stockId":2
+            "stockId":"monumental"
         },
         {
             "name": "Metallica en vivo",
@@ -64,7 +64,7 @@
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Pasó tiempo desde la última vez de Metallica en Argentina. Volvieron para demostrarnos que el tiempo no pasa para estos rockeros eternos.",
             "venueId":"monumental",
-            "stockId":2
+            "stockId":"monumental"
         },
         {
             "name": "Orquesta Filarmónica de Viena en vivo",
@@ -75,7 +75,7 @@
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "La Orquesta Filarmónica de Viena se presenta en el Teatro Colón para demostrar porque es considerada una de las mejores Orquestas del Mundo.",
             "venueId":"teatrocolon",
-            "stockId":3
+            "stockId":"teatrocolon"
         },
         {
             "name": "Eruca Sativa en vivo",
@@ -86,7 +86,7 @@
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "El power-trío Eruca Sativa y un electro-acústico en el Teatro Colón, donde nos mostrará el poder de sus acordes y lo poderoso de sus letras.",
             "venueId":"teatrocolon",
-            "stockId":3
+            "stockId":"teatrocolon"
 
         },
         {
@@ -98,7 +98,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "La vuelta de Cazzu al Luna nos trae la presentanción de su nuevo disco.",
             "venueId":"lunapark",
-            "stockId":1
+            "stockId":"lunapark"
         },
         {
             "name": "Alicia Keys en vivo",
@@ -109,7 +109,7 @@
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "Alicia Keys, la reina del Jazz se presenta en Argentina por primera vez y nos presenta su último disco.",
             "venueId":"teatrocolon",
-            "stockId":3
+            "stockId":"teatrocolon"
         },
         {
             "name": "Miss Bolivia en vivo",
@@ -120,7 +120,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Miss Bolivia se presenta en el Luna para hacer vibrar a todos los presentes, con sus letras llenas de realidad.",
             "venueId":"lunapark",
-            "stockId":1
+            "stockId":"lunapark"
         },
         {
             "name": "Bad Bunny en vivo",
@@ -131,7 +131,7 @@
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Bad Bunny y su primera vez en el Estadio Monumental, con un público que hace años viene reclamando su regreso al país.",
             "venueId":"monumental",
-            "stockId":2
+            "stockId":"monumental"
         },
         {
             "name": "Marilina Bertoldi en vivo",
@@ -142,7 +142,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Marilina Bertoldi se presenta por primera vez en el Luna para demostrar porque es una de las figuras emergentes más fuertes del rock Nacional.",
             "venueId":"lunapark",
-            "stockId":1
+            "stockId":"lunapark"
         },
         
         {
@@ -154,7 +154,7 @@
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "La Orquesta Sinfónica Nacional se presenta en el Teatro Colón para demostrar porque es considerada una de las mejores Orquestas del Mundo.",
             "venueId":"teatrocolon",
-            "stockId":3
+            "stockId":"teatrocolon"
 
         }
     ],
@@ -169,7 +169,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
             "venueId":"teatroflores",
-            "stockId":4
+            "stockId":"teatroflores"
         },
         {
             "name": "Divididos en vivo",
@@ -180,7 +180,7 @@
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "La aplanadora del Rock vuelve a Flores para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"teatroflores",
-            "stockId":5
+            "stockId":"teatroflores"
         },
         {
             "name": "Arbolito en vivo",
@@ -191,7 +191,7 @@
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "Arbolito sigue de festejo, y está vez vuelve a Flores para presentar todo su repertorio.",
             "venueId":"teatroflores",
-            "stockId":5
+            "stockId":"teatroflores"
         },
         {
             "name": "Cazzu en vivo",
@@ -202,7 +202,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Cazzu vuelve a los barrios y se presenta en el Teatro de Flores, con la idea de mantenerse cercana a sus seguidores.",
             "venueId":"teatroflores",
-            "stockId":4
+            "stockId":"teatroflores"
         },
         {
             "name": "Javier Malosetti en vivo",
@@ -213,7 +213,7 @@
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "El genio del bajo, Javier Malosetti se presenta en la Trastienda, en lo que va a ser un show íntimo",
             "venueId":"trastienda",
-            "stockId":5
+            "stockId":"trastienda"
         },
         {
             "name": "Residente en vivo",
@@ -224,7 +224,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
             "venueId":"teatroflores",
-            "stockId":4
+            "stockId":"teatroflores"
         },
         {
             "name": "Divididos en vivo",
@@ -235,7 +235,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "La aplanadora del Rock vuelve a Flores para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"teatroflores",
-            "stockId":4
+            "stockId":"teatroflores"
         },
         {
             "name": "Arbolito en vivo",
@@ -246,7 +246,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "detalle arbolito",
             "venueId":"teatroflores",
-            "stockId":4
+            "stockId":"teatroflores"
         },
         {
             "name": "Catupecu Machu en vivo",
@@ -257,7 +257,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Catupecu Machu presenta a su nueva formación en el Teatro de Flores, ante todo su público, en su barrio.",
             "venueId":"teatroflores",
-            "stockId":4
+            "stockId":"teatroflores"
         },
         {
             "name": "Ziggy Marley en vivo",
@@ -268,7 +268,7 @@
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "Primera vez de Ziggy Marley en Argentina, en un show íntimo donde sentiremos todo el ritmo jamaiquino heredado de su padre.",
             "venueId":"trastienda",
-            "stockId":5
+            "stockId":"trastienda"
         }
           ]
         }

@@ -1,6 +1,7 @@
 {
     "StockSale":[
             {
+                "id":"lunapark",
                 "stockStreaming": 5000,
                 "stockVIP": 200,
                 "stockGeneralLateral": 5000,
@@ -14,6 +15,7 @@
                 "venueId":"lunapark"
             },
             {
+                "id":"monumental",
                 "stockStreaming": 15000,
                 "stockVIP": 5000,
                 "stockGeneralLateral": 25000,
@@ -27,6 +29,7 @@
                 "venueId":"monumental"
             },
             {
+                "id":"teatrocolon",
                 "stockStreaming": 3000,
                 "stockVIP": 0,
                 "stockGeneralLateral": 500,
@@ -40,6 +43,7 @@
                 "venueId":"teatrocolon"
             },
             {
+                "id":"teatroflores",
                 "stockStreaming": 3000,
                 "stockVIP": 50,
                 "stockGeneralLateral": 200,
@@ -53,6 +57,7 @@
                 "venueId":"teatroflores"
             },
             {
+                "id":"trastienda",
                 "stockStreaming": 2000,
                 "stockVIP": 50,
                 "stockGeneralLateral": 0,

@@ -7,8 +7,7 @@ const TicketStock = sequelize.define(
   "ticketstock",
   {
     id: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
+      type: DataTypes.STRING,
       primaryKey: true,
     },
     stockStreaming: {

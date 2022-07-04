@@ -6,6 +6,7 @@ async function chargeTicketStock() {
   ticketStockDB.StockSale.map(async (e) => {
     return await TicketStock.findOrCreate({
       where: {
+        id: e.id,
         stockStreaming: e.stockStreaming,
         stockkVIP: e.stockVIP,
         stockGeneral: e.stockGeneral,
