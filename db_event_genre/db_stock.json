@@ -11,7 +11,7 @@
                 "generalLateralPrice": 400,
                 "generalPrice": 700,
                 "palcoPrice": 1000,
-                "venueId":1
+                "venueId":"lunapark"
             },
             {
                 "stockStreaming": 15000,
@@ -24,7 +24,7 @@
                 "generalLateralPrice": 400,
                 "generalPrice": 700,
                 "palcoPrice": 1000,
-                "venueId":2
+                "venueId":"monumental"
             },
             {
                 "stockStreaming": 3000,
@@ -37,7 +37,7 @@
                 "generalLateralPrice": 400,
                 "generalPrice": 700,
                 "palcoPrice": 1000,
-                "venueId":3
+                "venueId":"teatrocolon"
             },
             {
                 "stockStreaming": 3000,
@@ -50,7 +50,7 @@
                 "generalLateralPrice": 400,
                 "generalPrice": 700,
                 "palcoPrice": 1000,
-                "venueId":4
+                "venueId":"teatroflores"
             },
             {
                 "stockStreaming": 2000,
@@ -63,7 +63,7 @@
                 "generalLateralPrice": 400,
                 "generalPrice": 700,
                 "palcoPrice": 1000,
-                "venueId":5
+                "venueId":"trastienda"
             }
     ]
 }
