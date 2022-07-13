@@ -351,7 +351,8 @@ async function ticketVoucher(id) {
     "421836283137-tak7au16v1h3ap6t7l3lmqnj84te9pd3.apps.googleusercontent.com";
   const clientSecret = "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";
   const refreshToken =
-    "1//04DJZhRTcznVkCgYIARAAGAQSNwF-L9Irm6uZ7R3pEQMFJnbeRJNFR2GkGNklqekUEx-9zAz_AUV-J6zmsDneiIzEs8-i97A3LDg";
+    process.env.REFRESH_TOKEN ||
+    "1//04wX-3DDsJY0qCgYIARAAGAQSNwF-L9Irj0Z9e4TbKnJg8hgSmUBKkwyfDjWVDcwUlXyy9SmYJSDzx4LEGtLaX-td01QzmJjNRxc";
 
   const oAuth2client = new google.auth.OAuth2(
     clientId,
