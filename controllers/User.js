@@ -5,14 +5,14 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const BlackList = require("../models/BlackList");
 require("dotenv").config();
-const { AUTH_ROUNDS, AUTH_SECRET, AUTH_EXPIRES } = process.env;
+const { AUTH_SECRET, AUTH_EXPIRES } = process.env;
 require("../db.js");
 
 async function createUser(req, res) {
   const { name, username, email } = req.body;
   if (!username || !email || !name) {
     return res
-      .status(404)
+      .status(400)
       .json({ error: "Faltan completar Campos obligatorios" });
   } else {
     try {
@@ -25,6 +25,7 @@ async function createUser(req, res) {
             username: username,
             email: email,
           },
+          include: { model: Ticket },
         });
         if (newUser) {
           let token = jwt.sign({ user: newUser }, AUTH_SECRET, {
@@ -32,20 +33,21 @@ async function createUser(req, res) {
           });
           return res.json(["Usuario", { user: newUser }, { token: token }]);
         } else {
-          res.status(500).json({ error: "Error al crear el Usuario" });
+          res.status(400).json({ error: "Error al crear el Usuario" });
         }
       } else {
-        return res.status(401).json({ error: "El usuario esta baneado" });
+        return res.status(403).json({ error: "El usuario esta baneado" });
       }
     } catch (error) {
-      return res.status(404).send({ error: error.message });
+      return res.status(400).send({ error: error.message });
     }
   }
 }
 // "No se ha logrado crear el usuario"
 async function getUser(req, res) {
   const DBusers = await User.findAll({ include: { model: Ticket } });
-  const { username, password } = req.query;
+  const { username, password, id } = req.query;
+  const idUser = await User.findByPk(id);
   try {
     if (username) {
       const filt = DBusers.filter((user) =>
@@ -54,7 +56,8 @@ async function getUser(req, res) {
       if (filt.length > 0) {
         return res.send(filt);
       }
-    } else {
+    } else if (idUser) {
+      return res.send(idUser);
       //  if (username && password) {
       //   const userFound = DBusers.find((user) => {
       //     if (user.username === username && user.password === password)
@@ -62,6 +65,7 @@ async function getUser(req, res) {
       //   });
       //   return res.send(userFound);
       // }
+    } else {
       return res.send(DBusers);
     }
   } catch (error) {
@@ -74,7 +78,7 @@ async function putUser(req, res) {
   try {
     if (!id && !email && !password && username) {
       return res
-        .status(404)
+        .status(400)
         .json({ error: "Faltan completar Campos obligatorios" });
     } else {
       const user = await User.findOne({ where: { id: id } });
@@ -86,11 +90,11 @@ async function putUser(req, res) {
         });
         return res.json({ message: `Usuario Actualizado con exitos`, user });
       } else {
-        res.status(404).send({ error: "El usuario no lo encontro" });
+        res.status(400).send({ error: "El usuario no lo encontro" });
       }
     }
   } catch (error) {
-    res.status(404).send({ error: error.message });
+    res.status(400).send({ error: error.message });
   }
 }
 async function deleteUser(req, res) {
@@ -100,10 +104,10 @@ async function deleteUser(req, res) {
     const user = await User.findByPk(id);
     //console.log(user)
     if (!id) {
-      return res.status(404).json({ error: "El ID solicitado no existe" });
+      return res.status(400).json({ error: "El ID solicitado no existe" });
     }
     if (!user) {
-      return res.status(404).json({
+      return res.status(400).json({
         error: "No se a encontrado un Usuario que corresponda a lo solicitado",
       });
     }
@@ -111,6 +115,7 @@ async function deleteUser(req, res) {
       where: {
         email: user.email,
         username: user.username || "undefined",
+        name: user.name || "undefined",
       },
     });
     console.log("Usuario Eliminado y baneado", newBaned);
@@ -121,7 +126,7 @@ async function deleteUser(req, res) {
         .json({ message: "El Usuario a sido eliminado con exito" });
     }
   } catch (error) {
-    return res.status(404).json({ error: error.message });
+    return res.status(400).json({ error: error.message });
   }
 }
 
@@ -130,7 +135,7 @@ async function UpgradeRank(req, res) {
   try {
     if (typeof isAdmin !== "boolean") {
       return res
-        .status(404)
+        .status(400)
         .json({ error: "isAdmin tiene que ser un booleado" });
     } else {
       await User.update(
@@ -147,7 +152,7 @@ async function UpgradeRank(req, res) {
       return res.json({ message: `Rango de usuario actualizado`, user });
     }
   } catch (error) {
-    res.status(404).send({ error: error.message });
+    res.status(400).send({ error: error.message });
   }
 }
 
@@ -156,9 +161,9 @@ async function postAdminUser(req, res) {
     const { username, email, name } = req.body;
     const admin = await User.findOrCreate({
       where: {
+        name: name,
         username: username,
         email: email,
-        name: name,
         isAdmin: true,
       },
     });
@@ -167,7 +172,7 @@ async function postAdminUser(req, res) {
     });
     res.json({ admin: admin, token: token });
   } catch (error) {
-    res.status(401).json({ error: error.message });
+    res.status(400).json({ error: error.message });
   }
 }
 

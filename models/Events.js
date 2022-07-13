@@ -74,10 +74,14 @@ const Events = sequelize.define(
     },
     description: {
       type: DataTypes.TEXT,
+      allowNull: false,
     },
     isAprobe: {
       type: DataTypes.BOOLEAN,
       defaultValue: false,
+    },
+    streaming: {
+      type: DataTypes.STRING,
     },
   },
   { timestamps: false }

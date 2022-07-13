@@ -1,0 +1,11 @@
+{
+    "service":"gamail",
+    "auth":{
+        "type":"OAuth2",
+        "user":"concerteck@gmail.com",
+        "redirectUri":"https://developers.google.com/oauthplayground",
+        "clientId":"421836283137-tak7au16v1h3ap6t7l3lmqnj84te9pd3.apps.googleusercontent.com",
+        "clientSecret":"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",
+        "refreshToken":"1//04X65eKwpBusXCgYIARAAGAQSNwF-L9Ir54iJjshB2BqBe_smNpBY1olg34KkhxmlOrk4IlhgzcXJ2nCvCKNmaGeifDThJsiHk4E"
+    }
+}

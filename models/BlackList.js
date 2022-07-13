@@ -17,6 +17,9 @@ const BlackList = sequelize.define(
     username: {
       type: DataTypes.STRING,
     },
+    name: {
+      type: DataTypes.STRING,
+    },
   },
   { timestamps: false }
 );

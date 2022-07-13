@@ -5,88 +5,88 @@
             "artist": "Divididos",
             "genre": "Rock",
             "schedule": "2022-08-17T21:00:00.000Z",
-            "performerImage": "https://lastfm.freetls.fastly.net/i/u/770x0/c680cb0c72de80e17656d75121b6155d.jpg",
+            "performerImage": "http://www.compromisodiario.com.ar/wp-content/uploads/2015/07/put9RQ0T.jpeg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "La aplanadora del Rock vuelve al Luna Park para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"lunapark",
-            "stockId":"lunapark"
+            "stockId":"Divididoslunapark2022-08-17T21:00:00.000Z"
         },
         {
             "name": "Arbolito en vivo",
             "artist": "Arbolito",
             "genre": "Reggae",
             "schedule": "2022-07-17T21:00:00.000Z",
-            "performerImage": "https://quedigital.com.ar/web/wp-content/uploads/2015/01/ARBOLITO-00-B.jpg",
+            "performerImage": "https://i.scdn.co/image/ab6761610000e5eb2576f3b8284de3bafad01983",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Arbolito festeja sus 25 años de carrera y lo hace de la mejor manera, con su primer Luna Park.",
             "venueId":"lunapark",
-            "stockId":"lunapark"
+            "stockId":"Arbolitolunapark2022-07-17T21:00:00.000Z"
         },
         {
             "name": "Depeche Mode en vivo",
             "artist": "Depeche Mode",
             "genre": "Electronica",
             "schedule": "2022-09-17T21:00:00.000Z",
-            "performerImage": "https://indiehoy.com/wp-content/uploads/2016/10/depeche-mode-.jpg",
+            "performerImage": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Depeche_Mode_Logo.png",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Depeche Mode vuelve a Argentina para presentarse en el Estadio Monumental, ante una multitud.",
             "venueId":"monumental",
-            "stockId":"monumental"
+            "stockId":"DepecheModemonumental2022-09-17T21:00:00.000Z"
         },
         {
             "name": "Coldplay en vivo",
             "artist": "Coldplay",
             "genre": "Pop",
             "schedule": "2022-12-05T21:00:00.000Z",
-            "performerImage": "https://lumiere-a.akamaihd.net/v1/images/coldplay_2_477851c5.jpeg",
+            "performerImage": "https://thehiveexperience.imgix.net/single_image/2021/05/3407/coldplay.jpg?w=635&h=350&fit=crop&crop=faces",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Coldplay rompe record y se presenta en el Monumental para interpretar todos sus hits.",
             "venueId":"monumental",
-            "stockId":"monumental"
+            "stockId":"Coldplaymonumental2022-12-05T21:00:00.000Z"
         },
         {
             "name": "Becky G en vivo",
             "artist": "Becky G",
             "genre": "Reggaeton",
             "schedule": "2022-08-12T21:00:00.000Z",
-            "performerImage": "https://www.oxigeno.fm/wp-content/uploads/2021/07/Becky-G-estrena-Only-one.jpg",
+            "performerImage": "https://www.billboard.com/wp-content/uploads/2022/04/Becky-G-cr-Greg-Swales-press-2022-billboard-1548.jpg?w=1024",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Becky G trae todo su ritmo al Estadio Monumental para hacer delirar a toda una multitud que pide por ella desde hace años.",
             "venueId":"monumental",
-            "stockId":"monumental"
+            "stockId":"BeckyGmonumental2022-08-12T21:00:00.000Z"
         },
         {
             "name": "Metallica en vivo",
             "artist": "Metallica",
             "genre": "Metal",
             "schedule": "2022-10-17T21:00:00.000Z",
-            "performerImage": "https://indiehoy.com/wp-content/uploads/2020/06/metallica.jpg",
+            "performerImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Metallica_logo.png",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Pasó tiempo desde la última vez de Metallica en Argentina. Volvieron para demostrarnos que el tiempo no pasa para estos rockeros eternos.",
             "venueId":"monumental",
-            "stockId":"monumental"
+            "stockId":"Metallicamonumental2022-10-17T21:00:00.000Z"
         },
         {
             "name": "Orquesta Filarmónica de Viena en vivo",
             "artist": "Orquesta Filarmónica de Viena",
             "genre": "Clasica",
             "schedule": "2022-08-17T21:00:00.000Z",
-            "performerImage": "https://www.fmradiocultura.com.ar/wp-content/uploads/2017/12/orquesta-de-viena.jpg",
+            "performerImage": "https://medicitv-b.imgix.net/movie/2012-vienna-philharmonic-new-years-concert-mariss-jansons_d_TC2FHFF.jpg?auto=format&q=85",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "La Orquesta Filarmónica de Viena se presenta en el Teatro Colón para demostrar porque es considerada una de las mejores Orquestas del Mundo.",
             "venueId":"teatrocolon",
-            "stockId":"teatrocolon"
+            "stockId":"OrquestaFilarmónicadeVienateatrocolon2022-08-17T21:00:00.000Z"
         },
         {
             "name": "Eruca Sativa en vivo",
             "artist": "Eruca Sativa",
             "genre": "Rock",
             "schedule": "2022-08-18T21:00:00.000Z",
-            "performerImage": "https://www.cmtv.com.ar/imagenes_artistas/2011.jpg",
+            "performerImage": "http://www.mtsproducciones.com/imagenes/locales/eruca%20sativa%20620x328.jpg",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "El power-trío Eruca Sativa y un electro-acústico en el Teatro Colón, donde nos mostrará el poder de sus acordes y lo poderoso de sus letras.",
             "venueId":"teatrocolon",
-            "stockId":"teatrocolon"
+            "stockId":"ErucaSativateatrocolon2022-08-18T21:00:00.000Z"
 
         },
         {
@@ -94,55 +94,55 @@
             "artist": "Cazzu",
             "genre": "Trap",
             "schedule": "2022-11-17T21:00:00.000Z",
-            "performerImage": "https://vivo.perfil.com/storage/uploads/shows/photo_gallery/c30c78cd5ca3ee573d8697e20f620dac.jpg",
+            "performerImage": "https://images.ctfassets.net/86mn0qn5b7d0/5EhwWEjXPa6utf4MdG6MVP/2a15b2c6896b37510352f2395d62b8e2/la-cantante-argentina-instagram__1_.webp?fm=jpg&fl=progressive&q=50&w=1200",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
-            "description": "La vuelta de Cazzu al Luna nos trae la presentanción de su nuevo disco.",
+            "description": "Vuelve Cazzu al Luna Park, donde nos trae la presentanción de su nuevo disco.",
             "venueId":"lunapark",
-            "stockId":"lunapark"
+            "stockId":"Cazzulunapark2022-11-17T21:00:00.000Z"
         },
         {
             "name": "Alicia Keys en vivo",
             "artist": "Alicia Keys",
             "genre": "Jazz",
             "schedule": "2022-10-17T21:00:00.000Z",
-            "performerImage": "https://www.cromosomax.com/pics/2012/09/alicia-keys-itunes-festival.jpg",
+            "performerImage": "https://s1.ticketm.net/dam/a/db4/fe18a6d9-7359-4621-a145-7b0ec8cc8db4_1672261_SOURCE.jpg",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "Alicia Keys, la reina del Jazz se presenta en Argentina por primera vez y nos presenta su último disco.",
             "venueId":"teatrocolon",
-            "stockId":"teatrocolon"
+            "stockId":"AliciaKeysteatrocolon2022-10-17T21:00:00.000Z"
         },
         {
             "name": "Miss Bolivia en vivo",
             "artist": "Miss Bolivia",
             "genre": "Hip Hop",
             "schedule": "2022-10-17T21:00:00.000Z",
-            "performerImage": "https://www.diariovivo.com/wp-content/uploads/2018/04/Missbo-III.jpg",
+            "performerImage": "http://images.genius.com/a7fda0ee6fa5ad41f7b780009f89facd.1000x1000x1.jpg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
-            "description": "Miss Bolivia se presenta en el Luna para hacer vibrar a todos los presentes, con sus letras llenas de realidad.",
+            "description": "Miss Bolivia se presenta en el Luna Park para hacer vibrar a todos los presentes, con sus letras llenas de realidad.",
             "venueId":"lunapark",
-            "stockId":"lunapark"
+            "stockId":"MissBolivialunapark2022-10-17T21:00:00.000Z"
         },
         {
             "name": "Bad Bunny en vivo",
             "artist": "Bad Bunny",
             "genre": "Reggaeton",
             "schedule": "2022-08-13T21:00:00.000Z",
-            "performerImage": "https://img2.rtve.es/i/?w=1600&i=1600690710113.jpg",
+            "performerImage": "https://holanews.com/wp-content/uploads/2022/05/rss-efe0096e1a820dd547f2291b29fbd4e470eb8a7362dw.jpg",
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Bad Bunny y su primera vez en el Estadio Monumental, con un público que hace años viene reclamando su regreso al país.",
             "venueId":"monumental",
-            "stockId":"monumental"
+            "stockId":"BadBunnymonumental2022-08-13T21:00:00.000Z"
         },
         {
             "name": "Marilina Bertoldi en vivo",
             "artist": "Marilina Bertoldi",
             "genre": "Rock",
             "schedule": "2022-09-25T21:00:00.000Z",
-            "performerImage": "https://vivo.perfil.com/storage/uploads/shows/slider/3a758e68c774675958f177289cbb81f0.webp",
+            "performerImage": "https://media.lacapital.com.ar/p/deb4ee9f4d04b7412354d311dd39c239/adjuntos/204/imagenes/030/963/0030963303/marilina-bertoldijpg.jpg",
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
-            "description": "Marilina Bertoldi se presenta por primera vez en el Luna para demostrar porque es una de las figuras emergentes más fuertes del rock Nacional.",
+            "description": "Marilina Bertoldi se presenta por primera vez en el Luna Park para demostrar porque es una de las figuras emergentes más fuertes del rock nacional.",
             "venueId":"lunapark",
-            "stockId":"lunapark"
+            "stockId":"MarilinaBertoldilunapark2022-09-25T21:00:00.000Z"
         },
         
         {
@@ -150,11 +150,11 @@
             "artist": "Orquesta Sinfónica Nacional",
             "genre": "Clasica",
             "schedule": "2022-11-23T21:00:00.000Z",
-            "performerImage": "https://www.cultura.gob.ar/media/uploads/osn_11_IpINc6k.jpg",
+            "performerImage": "https://medicitv-b.imgix.net/movie/2012-vienna-philharmonic-new-years-concert-mariss-jansons_d_TC2FHFF.jpg?auto=format&q=85",
             "placeImage":"https://www.tangol.com/blog/Fotos/Notas/teatro-colon-la-perla-de-buenos-aires_123_202007131308350.Original.JPG",
             "description": "La Orquesta Sinfónica Nacional se presenta en el Teatro Colón para demostrar porque es considerada una de las mejores Orquestas del Mundo.",
             "venueId":"teatrocolon",
-            "stockId":"teatrocolon"
+            "stockId":"OrquestaSinfónicaNacionalteatrocolon2022-11-23T21:00:00.000Z"
 
         }
     ],
@@ -165,44 +165,44 @@
             "artist": "Residente",
             "genre": "Rap",
             "schedule": "2022-12-24T21:00:00.000Z",
-            "performerImage": "https://www.rionegro.com.ar/wp-content/uploads/2021/09/Residente.jpg?w=1024",
+            "performerImage": "https://imagenes.elpais.com/resizer/FuuHVKhPDiTnD6P7oCNLulTTbdg=/1960x1470/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/GUVJC4QSET5PPIO25ENUNLORK4.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Residenteteatroflores2022-12-24T21:00:00.000Z"
         },
         {
             "name": "Divididos en vivo",
             "artist": "Divididos",
             "genre": "Rock",
             "schedule": "2022-08-05T21:00:00.000Z",
-            "performerImage": "https://lastfm.freetls.fastly.net/i/u/770x0/c680cb0c72de80e17656d75121b6155d.jpg",
+            "performerImage": "http://www.compromisodiario.com.ar/wp-content/uploads/2015/07/put9RQ0T.jpeg",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "La aplanadora del Rock vuelve a Flores para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Divididosteatroflores2022-08-05T21:00:00.000Z"
         },
         {
             "name": "Arbolito en vivo",
             "artist": "Arbolito",
             "genre": "Reggae",
             "schedule": "2022-07-25T21:00:00.000Z",
-            "performerImage": "https://quedigital.com.ar/web/wp-content/uploads/2015/01/ARBOLITO-00-B.jpg",
+            "performerImage": "https://i.scdn.co/image/ab6761610000e5eb2576f3b8284de3bafad01983",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "Arbolito sigue de festejo, y está vez vuelve a Flores para presentar todo su repertorio.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Arbolitoteatroflores2022-07-25T21:00:00.000Z"
         },
         {
             "name": "Cazzu en vivo",
             "artist": "Cazzu",
             "genre": "Trap",
             "schedule": "2022-12-15T21:00:00.000Z",
-            "performerImage": "https://vivo.perfil.com/storage/uploads/shows/photo_gallery/c30c78cd5ca3ee573d8697e20f620dac.jpg",
+            "performerImage": "https://images.ctfassets.net/86mn0qn5b7d0/5EhwWEjXPa6utf4MdG6MVP/2a15b2c6896b37510352f2395d62b8e2/la-cantante-argentina-instagram__1_.webp?fm=jpg&fl=progressive&q=50&w=1200",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Cazzu vuelve a los barrios y se presenta en el Teatro de Flores, con la idea de mantenerse cercana a sus seguidores.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Cazzuteatroflores2022-12-15T21:00:00.000Z"
         },
         {
             "name": "Javier Malosetti en vivo",
@@ -213,62 +213,62 @@
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "El genio del bajo, Javier Malosetti se presenta en la Trastienda, en lo que va a ser un show íntimo",
             "venueId":"trastienda",
-            "stockId":"trastienda"
+            "stockId":"JavierMalosettitrastienda2022-12-19T21:00:00.000Z"
         },
         {
             "name": "Residente en vivo",
             "artist": "Residente",
             "genre": "Rap",
             "schedule": "2023-01-17T21:00:00.000Z",
-            "performerImage": "https://www.rionegro.com.ar/wp-content/uploads/2021/09/Residente.jpg?w=1024",
+            "performerImage": "https://imagenes.elpais.com/resizer/FuuHVKhPDiTnD6P7oCNLulTTbdg=/1960x1470/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/GUVJC4QSET5PPIO25ENUNLORK4.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Residenteteatroflores2023-01-17T21:00:00.000Z"
         },
         {
             "name": "Divididos en vivo",
             "artist": "Divididos",
             "genre": "Rock",
             "schedule": "2022-11-18T21:00:00.000Z",
-            "performerImage": "https://lastfm.freetls.fastly.net/i/u/770x0/c680cb0c72de80e17656d75121b6155d.jpg",
+            "performerImage": "http://www.compromisodiario.com.ar/wp-content/uploads/2015/07/put9RQ0T.jpeg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "La aplanadora del Rock vuelve a Flores para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Divididosteatroflores2022-11-18T21:00:00.000Z"
         },
         {
             "name": "Arbolito en vivo",
             "artist": "Arbolito",
             "genre": "Reggae",
             "schedule": "2022-08-01T21:00:00.000Z",
-            "performerImage": "https://quedigital.com.ar/web/wp-content/uploads/2015/01/ARBOLITO-00-B.jpg",
+            "performerImage": "https://i.scdn.co/image/ab6761610000e5eb2576f3b8284de3bafad01983",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
-            "description": "detalle arbolito",
+            "description": "Arbolito festeja sus 25 años de carrera y lo hace de la mejor manera, con su primer Luna Park.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"Arbolitoteatroflores2022-08-01T21:00:00.000Z"
         },
         {
             "name": "Catupecu Machu en vivo",
             "artist": "Catupecu Machu",
             "genre": "Rock",
             "schedule": "2022-08-02T21:00:00.000Z",
-            "performerImage": "https://radiografica.org.ar/wp-content/uploads/2022/05/QUI1872.jpg",
+            "performerImage": "https://frasesrocknacional.com.ar/wp-content/uploads/2020/08/Logo-catupecu-machu-1.jpg",
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Catupecu Machu presenta a su nueva formación en el Teatro de Flores, ante todo su público, en su barrio.",
             "venueId":"teatroflores",
-            "stockId":"teatroflores"
+            "stockId":"CatupecuMachuteatroflores2022-08-02T21:00:00.000Z"
         },
         {
             "name": "Ziggy Marley en vivo",
             "artist": "Ziggy Marley",
             "genre": "Reggae",
             "schedule": "2022-08-06T21:00:00.000Z",
-            "performerImage": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/d/4/0/e/d40e8dea64b8039bcad53f1c8af3019b.jpg",
+            "performerImage": "https://www.seekpng.com/png/detail/116-1162128_ziggy-marley-ziggy-marley-logo.png",
             "placeImage": "https://pogopedia.com.ar/img/venues/s6I7B3xO53Oe11iB4czHowdqZkIKNzqGwqu.jpg",
             "description": "Primera vez de Ziggy Marley en Argentina, en un show íntimo donde sentiremos todo el ritmo jamaiquino heredado de su padre.",
             "venueId":"trastienda",
-            "stockId":"trastienda"
+            "stockId":"Ziggy Marleytrastienda2022-08-06T21:00:00.000Z"
         }
           ]
         }

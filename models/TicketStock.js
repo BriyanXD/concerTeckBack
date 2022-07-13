@@ -40,6 +40,21 @@ const TicketStock = sequelize.define(
     palcoPrice: {
       type: DataTypes.FLOAT,
     },
+    idStreamingPrice:{
+      type: DataTypes.STRING
+    },
+    idVipPrice:{
+      type: DataTypes.STRING
+    },
+    idGeneralLateralPrice:{
+      type: DataTypes.STRING
+    },
+    idGeneralPrice:{
+      type: DataTypes.STRING
+    },
+    idPalcoPrice:{
+      type: DataTypes.STRING
+    },
   },
   {
     timestamps: false,

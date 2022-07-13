@@ -1,14 +1,16 @@
 require("dotenv").config();
-const { CORS_URL } = process.env;
 const express = require("express");
 const routes = require("./routes/index");
 const sequelize = require("./db");
 const morgan = require("morgan");
 const app = express();
+const cors = require("cors");
 const { chargeGenres } = require("./controllers/Genres");
 const { chargeEvents } = require("./controllers/Events");
 const { chargeVenue } = require("./controllers/Venue");
 const { chargeTicketStock } = require("./controllers/TicketStock");
+
+const CORS_URL = process.env.CORS_URL || "http://localhost:3000";
 
 require("./models/ShoppingCart");
 require("./models/Producer");
@@ -20,7 +22,7 @@ require("./models/Venue");
 require("./models/TicketStock");
 require("./models/BlackList");
 require("./models/Likes");
-
+app.use(cors());
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 app.use(express.json({ limit: "50mb" }));
 app.use(morgan("dev"));
@@ -38,10 +40,10 @@ app.use((req, res, next) => {
 app.use("/api", routes);
 
 let PORT = process.env.PORT || 3001;
-//reinicio del server
+
 async function main() {
   try {
-    await sequelize.sync({ force: false });
+    await sequelize.sync({ force: true });
     console.log("Conection DB succesful");
     app.listen(PORT, () => {
       console.log(`App listen http://localhost:${PORT}`);

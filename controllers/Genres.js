@@ -3,13 +3,17 @@ const Genre = require("../models/Genre");
 const Events = require("../models/Events");
 
 async function chargeGenres() {
-  genreFiles.genres.map(async (e) => {
-    return await Genre.findOrCreate({
-      where: {
-        name: e.name.toLowerCase(),
-      },
+  try{
+    genreFiles.genres.map(async (e) => {
+      return await Genre.findOrCreate({
+        where: {
+          name: e.name.toLowerCase(),
+        },
+      });
     });
-  });
+  }catch(error){
+    console.log(error.message)
+  }
 }
 
 async function getAllGenres(req, res) {
@@ -39,9 +43,9 @@ async function postOneGenre(req, res) {
       .then((genreCreated) => {
         res.json(genreCreated);
       })
-      .catch((e) => res.status(404).send({ error: "Género no se pudo crear" }));
+      .catch((e) => res.status(400).send({ error: "Género no se pudo crear" }));
   } catch (error) {
-    res.status(404).send({ error: error.message });
+    res.status(400).send({ error: error.message });
   }
 }
 
