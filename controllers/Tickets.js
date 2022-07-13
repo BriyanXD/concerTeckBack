@@ -104,71 +104,79 @@ async function deleteTicket(req, res) {
   }
 }
 
-async function postAllCartEvent(req, res){
-  const {cantMin, cantMax} = req.body
-  const all = await Events.findAll({include: { model: TicketStock, as: "stock"}});
-  const events = all.sort((a,b) => {
-    if(a.name < b.name){
+async function postAllCartEvent(req, res) {
+  const { cantMin, cantMax } = req.body;
+  const all = await Events.findAll({
+    include: { model: TicketStock, as: "stock" },
+  });
+  const events = all.sort((a, b) => {
+    if (a.name < b.name) {
       return -1;
     }
-    if(a.name > b.name){
+    if (a.name > b.name) {
       return 1;
     }
     return 0;
-  })
-  try{
-    if(events){
-      for(let i = cantMin; i < cantMax; i++){
-        if(events[i].stock.idStreamingPrice !== null || events[i].stock.idVipPrice !== null || events[i].stock.idGeneralLateralPrice !== null ||
-          events[i].stock.idGeneralPrice !== null || events[i].stock.idPalcoPrice !== null ){
-          }else{
-            const idStockEncotrado = await TicketStock.findByPk(events[i].stockId)
-            const product = await stripe.products.create({
-              name: events[i].name,
-              description: events[i].description,
-              images: [events[i].performerImage],
+  });
+  try {
+    if (events) {
+      for (let i = cantMin; i < cantMax; i++) {
+        if (
+          events[i].stock.idStreamingPrice !== null ||
+          events[i].stock.idVipPrice !== null ||
+          events[i].stock.idGeneralLateralPrice !== null ||
+          events[i].stock.idGeneralPrice !== null ||
+          events[i].stock.idPalcoPrice !== null
+        ) {
+        } else {
+          const idStockEncotrado = await TicketStock.findByPk(
+            events[i].stockId
+          );
+          const product = await stripe.products.create({
+            name: events[i].name,
+            description: events[i].description,
+            images: [events[i].performerImage],
+          });
+          if (product) {
+            const price = await stripe.prices.create({
+              product: product.id,
+              unit_amount: idStockEncotrado.streamingPrice * 100,
+              currency: "ars",
             });
-            if (product) {
-              const price = await stripe.prices.create({
-                product: product.id,
-                unit_amount: idStockEncotrado.streamingPrice * 100,
-                currency: "ars",
-              });
-              await idStockEncotrado.update({idStreamingPrice: price.id})
-              const price2 = await stripe.prices.create({
-                product: product.id,
-                unit_amount: idStockEncotrado.vipPrice * 100,
-                currency: "ars",
-              });
-              await idStockEncotrado.update({idVipPrice: price2.id})
-              const price3 = await stripe.prices.create({
-                product: product.id,
-                unit_amount: idStockEncotrado.generalLateralPrice * 100,
-                currency: "ars",
-              });
-              await idStockEncotrado.update({idGeneralLateralPrice: price3.id})
-              const price4 = await stripe.prices.create({
-                product: product.id,
-                unit_amount: idStockEncotrado.generalPrice * 100,
-                currency: "ars",
-              });
-              await idStockEncotrado.update({idGeneralPrice: price4.id})
-              const price5 = await stripe.prices.create({
-                product: product.id,
-                unit_amount: idStockEncotrado.palcoPrice * 100,
-                currency: "ars",
-              });
-              await idStockEncotrado.update({idPalcoPrice: price5.id})
+            await idStockEncotrado.update({ idStreamingPrice: price.id });
+            const price2 = await stripe.prices.create({
+              product: product.id,
+              unit_amount: idStockEncotrado.vipPrice * 100,
+              currency: "ars",
+            });
+            await idStockEncotrado.update({ idVipPrice: price2.id });
+            const price3 = await stripe.prices.create({
+              product: product.id,
+              unit_amount: idStockEncotrado.generalLateralPrice * 100,
+              currency: "ars",
+            });
+            await idStockEncotrado.update({ idGeneralLateralPrice: price3.id });
+            const price4 = await stripe.prices.create({
+              product: product.id,
+              unit_amount: idStockEncotrado.generalPrice * 100,
+              currency: "ars",
+            });
+            await idStockEncotrado.update({ idGeneralPrice: price4.id });
+            const price5 = await stripe.prices.create({
+              product: product.id,
+              unit_amount: idStockEncotrado.palcoPrice * 100,
+              currency: "ars",
+            });
+            await idStockEncotrado.update({ idPalcoPrice: price5.id });
           } else {
-            res.send("No se encontro el producto")
+            res.send("No se encontro el producto");
           }
         }
       }
-        
     }
-    res.send("todo salio ok")
-  }catch(error){
-    console.log(error.message)
+    res.send("todo salio ok");
+  } catch (error) {
+    console.log(error.message);
   }
 }
 
@@ -226,8 +234,10 @@ async function postCheckout(req, res, next) {
     const session = await stripe.checkout.sessions.create({
       line_items: line_items,
       mode: "payment",
-      success_url: "http://localhost:3000/success?success=true",
-      cancel_url: "http://localhost:3000/success?canceled=true",
+      success_url:
+        "https://concer-teck-front-end.vercel.app/success?success=true",
+      cancel_url:
+        "https://concer-teck-front-end.vercel.app/success?canceled=true",
     });
     res.json(session);
   } catch (error) {
@@ -241,6 +251,6 @@ module.exports = {
   deleteTicket,
   postCreatEventAndPrice,
   postCheckout,
-  postAllCartEvent
+  postAllCartEvent,
   // getRaro2
 };
