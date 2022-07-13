@@ -317,7 +317,7 @@ async function ticketVoucher(id) {
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td align="left" class="esd-block-text">
-                                                                                                <p style="color: #090909;">Para: ${Comprador.user.email}<br>Nombre de usuario: ${Comprador.user.username}</p>
+                                                                                            <p style="color: #090909;">Para: ${Comprador.user.email}<br>Nombre de usuario: ${Comprador.user.username}<br>Link Qr:${url}</p>
                                                                                             </td>
                                                                                         </tr>
                                                                                     </tbody>
