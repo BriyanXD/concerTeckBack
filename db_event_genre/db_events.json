@@ -9,6 +9,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "La aplanadora del Rock vuelve al Luna Park para hacer delirar a todo los presentes con sus mejores temas, festejando sus 30 años de carrera.",
             "venueId":"lunapark",
+            "streaming":"CJkgBc2S5oY",
             "stockId":"Divididoslunapark2022-08-17T21:00:00.000Z"
         },
         {
@@ -20,6 +21,7 @@
             "placeImage": "https://billboard.com.ar/wp-content/uploads/2018/06/69111417b33d14147714a0e09de29e71.jpg",
             "description": "Arbolito festeja sus 25 años de carrera y lo hace de la mejor manera, con su primer Luna Park.",
             "venueId":"lunapark",
+            "streaming":"d0T97GB2PKw",
             "stockId":"Arbolitolunapark2022-07-17T21:00:00.000Z"
         },
         {
@@ -53,6 +55,7 @@
             "placeImage": "https://images.ole.com.ar/2021/09/21/JKyvsmFcC_1200x630__1.jpg",
             "description": "Becky G trae todo su ritmo al Estadio Monumental para hacer delirar a toda una multitud que pide por ella desde hace años.",
             "venueId":"monumental",
+            "streaming":"meafZ5t8NbQ",
             "stockId":"BeckyGmonumental2022-08-12T21:00:00.000Z"
         },
         {
@@ -169,6 +172,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "René y su banda Residente se presentan en el Teatro de Flores para darnos una cachetada de realidad y ritmo.",
             "venueId":"teatroflores",
+            "streaming":"O4f58BU_Hbs",
             "stockId":"Residenteteatroflores2022-12-24T21:00:00.000Z"
         },
         {
@@ -257,6 +261,7 @@
             "placeImage": "https://www.teatroflores.com/img/teatro1.jpg",
             "description": "Catupecu Machu presenta a su nueva formación en el Teatro de Flores, ante todo su público, en su barrio.",
             "venueId":"teatroflores",
+            "streaming":"yI67jCLHeAc",
             "stockId":"CatupecuMachuteatroflores2022-08-02T21:00:00.000Z"
         },
         {
