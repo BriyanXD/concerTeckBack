@@ -7,7 +7,7 @@ const { postCreatEventAndPrice } = require("./Tickets");
 const e = require("express");
 
 async function chargeEvents() {
-  try{
+  try {
     for (let typeEvent in eventsFiles) {
       eventsFiles[typeEvent].map(async (event) => {
         const saveGenre = await Genre.findOne({
@@ -25,6 +25,7 @@ async function chargeEvents() {
               description: event.description,
               venueId: event.venueId,
               stockId: event.stockId,
+              streaming: event.streaming || null,
               /* isBigEvent: event.isBigEvent === true ? true : false, */
             },
           })
@@ -37,8 +38,8 @@ async function chargeEvents() {
         }
       });
     }
-  }catch(error){
-    console.log(error.message)
+  } catch (error) {
+    console.log(error.message);
   }
 }
 
