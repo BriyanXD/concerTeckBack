@@ -6,7 +6,7 @@ require("dotenv").config();
 const { AUTH_SECRET } = process.env;
 
 let UserDate = "";
-
+//reinicio
 function verifyToken(req, res, next) {
   if (!req.headers.authorization) {
     return res.status(401).json({ error: "Acceso no autorizado" });
